@@ -20,8 +20,6 @@ is_python_min:
 - false
 macos_machine:
 - x86_64-apple-darwin13.4.0
-openssl:
-- '3.5'
 pin_run_as_build:
   python:
     min_pin: x.x
@@ -29,7 +27,7 @@ pin_run_as_build:
 python:
 - 3.14.* *_cp314t
 python_min:
-- '3.10'
+- '3.11'
 rust_compiler:
 - rust
 target_platform:
